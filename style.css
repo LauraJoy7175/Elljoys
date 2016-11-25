@@ -30,7 +30,7 @@ body {
     margin:0;
     padding:0;
     text-align:center;
-    background-image: URL(Photos/navBanner.png);
+    background-image: URL(/navBanner.png);
    }
 
 .nav-image {
@@ -70,7 +70,7 @@ li a:hover {
 
 .main {
 	height: 100%;
-	background-image: URL(Photos/ElljoyGradient.png);
+	background-image: URL(/ElljoyGradient.png);
 	width: 100%;
 }
 
