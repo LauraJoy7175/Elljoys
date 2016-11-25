@@ -25,6 +25,14 @@ body {
 			 height: 100%;
 }
 
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-image: URL(Photos/navBanner.png);
+   }
+
 .nav-image {
 	height: 200px;
 	width: 600px;
@@ -35,10 +43,9 @@ body {
 		}
 
 .nav ul  {
-	list-style-type: none;
 	margin: 0;
-  padding: 0;
-  overflow: hidden;
+  	padding: 0;
+  	overflow: hidden;
 	}
 
 .nav ul li {
@@ -50,46 +57,121 @@ body {
 
 li a {
 	display: block;
-    padding: 14px 16px;
+    padding: 14px 100px;
 		text-align: center;
 		text-decoration: none;
-		color: black;
+		color: #0A0A70;
 }
 
 li a:hover {
 	background-color: 081356;
-  color: white;
+	text-decoration: underline;
 }
 
 .main {
 	height: 100%;
+	background-image: URL(Photos/ElljoyGradient.png);
+	width: 100%;
 }
 
+.info {
+	padding-top: 200px;
+	color: #0A0A70;
+	text-align: center;
+	line-height: 60px;
+}
+
+
 .main-image {
-	height: 600px;
-	width: 600px;
+	height: 400px;
+	width: 400px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px;
+	
+}
+.Email {
+	color: #0A0A70;
+	text-align: center;
+	line-height: 60px;
+}
+.Tel {
+	color: #0A0A70;
+	text-align: center;
+	padding-bottom: 100px;
+	line-height: 60px;
 }
 
-@media
-
-/* Fairly small screens including iphones */
-only screen and (max-width: 500px),
-
-/* iPads */
-only screen and (min-device-width: 768px) and (max-device-width: 1024px)
-
-{
-	#top, #bottom, #left, #right { display: none; }
+.social-media1 {
+	height: 50px;
+	width: 50px;
+	float: left;
+	padding: 50px 50px 50px 50px;
 }
 
-@media only screen and (max-width:500px)
+.social-media2 {
+	height: 50px;
+	width: 50px;
+	float: right;
+	padding: 50px 50px 50px 50px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px), only screen and (min-device-width: 768px) and (max-device-width: 1024px)
+
 {
+	#top, #bottom, #left, #right 
+	{ 
+		display: none; 
+	}
 	.nav-image{
 		height: 100px;
-		width: 200px;
+		width: 350px;
 	}
+	li a {
+		padding: 10px 14px;
+		font-size: 16px;
+	}
+	.info {
+		font-size: 16px;
+		padding-top: 50px;	
+		padding-bottom: 50px;
+	}
+	.Email {
+		padding-top: 50px;
+		font-size: 16px;
+		
+	}
+	.Tel {
+		font-size: 16px;
+		padding-bottom: 100px;
+	}
+	.main-image {
+		height: 200px;
+		width: 200px;
+
+	}
+	.social-media2 {
+		height: 35px;
+		width: 35px;
+		padding: 0px 0px 10px 0px;
+
+	}
+
+	.social-media1 {
+		height: 35px;
+		width: 35px;
+		padding: 0px 0px 10px; 
+	}
+
+	
+
 }
+
+
+
+
