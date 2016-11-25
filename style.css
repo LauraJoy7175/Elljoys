@@ -74,6 +74,10 @@ li a:hover {
 	width: 100%;
 }
 
+.main-filler {
+	height: 500px;
+}
+
 .info {
 	padding-top: 200px;
 	color: #0A0A70;
