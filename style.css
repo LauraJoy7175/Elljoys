@@ -1,6 +1,6 @@
 /*adds a background to the site that will cover the screen for various browsers*/
 main {
-    background:url(Photos/ElljoyGradient.png) no-repeat;
+    background:url(/ElljoyGradient.png) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
