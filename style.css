@@ -42,7 +42,7 @@ li a:hover {
     color: white;
 }
 .home-h2 {
-    color: #0A0A70;
+       color: #081D8C;
     font-family: 'Yatra One', cursive;
     margin: 0;
     padding: 0;
@@ -82,6 +82,7 @@ li a:hover {
     padding-left: 90px;
     padding-right: 70px;
      padding-top: 55px;
+         color: #081D8C;
 }
 #about2 {
     text-align: left;
@@ -90,4 +91,5 @@ li a:hover {
     padding-left: 90px;
     padding-right: 70px;
      padding-top: 35px;
+         color: #081D8C;
 }
